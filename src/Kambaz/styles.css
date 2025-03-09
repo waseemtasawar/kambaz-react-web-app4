@@ -1,0 +1,149 @@
+body
+{ 
+    margin: 0;
+    padding: 0;
+}
+body * 
+{
+    font-family: Arial, Helvetica, sans-serif; 
+}
+body *:not(#wd-kambaz-navigation, #wd-kambaz-navigation *) {
+    margin-left: 1rem;
+}
+#wd-kambaz-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 120px;
+    background-color: black !important;
+    color: white;
+    padding-top: 20px;
+    z-index: 1000;
+}
+#wd-kambaz-wd-main-content-offset
+{
+    padding-left: 140px !important;
+}
+.wd-list-group .list-group-item.active {
+    color: white;
+    background-color: black;
+    border-left: 3px solid black !important;
+}
+
+.wd-list-group {
+    background-color: black !important;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px)
+{
+    #wd-kambaz-wd-main-content-offset
+    {
+        padding-left: 140px !important;
+    }
+}
+.btn-secondary {
+    --bs-btn-color: #000 !important;
+    --bs-btn-bg: #c7cdd1 !important;
+    --bs-btn-border-color: #c7cdd1 !important;
+    --bs-btn-hover-color: #fff !important;
+}
+
+.bg-secondary {
+    --bs-secondary-rgb: 109, 205, 209;
+}
+
+.list-group-item {
+    border-color: gray;
+}
+
+.wd-lesson {
+    border-left: 3px solid green !important;
+}
+
+#wd-lab-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+  
+#wd-lab-link:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+#wd-account-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+  
+#wd-account-navigation {
+    min-width: 200px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+  
+#wd-account-navigation .list-group-item {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+  
+#wd-account-navigation .list-group-item:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+  
+#wd-signup-screen,
+#wd-profile-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.card {
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+  
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.card input,
+.card select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+  
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+  
+.btn-danger {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+  

@@ -1,0 +1,65 @@
+#wd-account-container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+  
+#wd-account-navigation {
+    min-width: 200px;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+  
+#wd-account-navigation .list-group-item {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    background-color: transparent;
+    border: none;
+}
+  
+#wd-account-navigation .list-group-item:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+  
+#wd-signup-screen,
+#wd-profile-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    height: 100vh;
+}
+  
+.card {
+    width: 500px;
+    padding: 20px;
+}
+  
+.card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.card input,
+.card select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+  
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+  
+.btn-danger {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+  
