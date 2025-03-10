@@ -6,7 +6,7 @@ export default function Lab1() {
             <p>Your full name: Ann Thomas </p>
             <p>Section:37031 </p>
             <p>Email: thomas.ann@northeastern.edu</p>
-            <p>GitHub URL:https://github.com/annsthomas/kambaz-react-web-app3 </p>
+            <p>GitHub URL:https://github.com/annsthomas/kambaz-react-web-app4 </p>
             <h2>Lab Assignments</h2>
             <ul>
                 <li><Link to="/Labs/Lab1">Lab 1</Link></li>
